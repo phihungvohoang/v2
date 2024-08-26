@@ -79,17 +79,11 @@
 }
 
 .search-bar {
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .nav-item.active .nav-link {
   font-weight: bold;
-}
-
-@media (max-width: 768px) {
-  .hide-on-mobile {
-    display: none;
-  }
 }
 
 .New {

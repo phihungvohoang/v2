@@ -482,7 +482,7 @@
   {
     "id": "48",
     "name": "TREASURE HUNT - CAR-DE-ASADA",
-    "price": "111.111đ",
+    "price": "100.000đ",
     "image": "images/product/thunt/thunt-10.png",
     "condition": "New",
     "stock": 1,
@@ -540,23 +540,13 @@
     "tags": ["TREASURE HUNT"]
   },
   {
-    "id": "54",
-    "name": "LANCIA DELTA INTEGRALE white",
-    "price": "150.000đ",
-    "image": "images/product/basic/basic-150k-1.png",
-    "condition": "New",
-    "stock": 1,
-    "type": "basic",
-    "tags": []
-  },
-  {
     "id": "55",
     "name": "Supper Treasure Hunt - Fiat 500D Modificado",
-    "price": "123.345.678đ",
+    "price": "999.999đ",
     "image": "images/product/thunt/sthunt-1.png",
     "condition": "SoldOut",
     "stock": 0,
-    "type": "basic",
+    "type": "sth",
     "tags": ["SUPPER TREASURE HUNT"]
   },
   {
@@ -622,7 +612,7 @@
   {
     "id": "62",
     "name": "TREASURE HUNT - TOONED VOLKSWAGEN GOLF MK1",
-    "price": "190.000đ",
+    "price": "120.000đ",
     "image": "images/product/thunt/thunt-7.png",
     "condition": "New",
     "stock": 1,
@@ -644,6 +634,106 @@
     "name": "TREASURE HUNT - SKULL SHAKER (2021)",
     "price": "90.000đ",
     "image": "images/product/thunt/thunt-9.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "54",
+    "name": "LANCIA DELTA INTEGRALE (White)",
+    "price": "120.000đ",
+    "image": "images/product/basic/basic-150k-1.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "65",
+    "name": "LANCIA DELTA INTEGRALE ()",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-12.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "66",
+    "name": "LANCIA DELTA INTEGRALE (Green)",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-13.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "67",
+    "name": "'91 GMC Syclone (Blue)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-28.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "68",
+    "name": "'91 GMC Syclone (Black)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-29.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "69",
+    "name": "'49 Drag Merc (Silver)",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-14.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "70",
+    "name": "TREASURE HUNT - Grass Chomper (Orange)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-30.png",
+    "condition": "Cracked",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "71",
+    "name": "TREASURE HUNT - Chrysler pacifica (White)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-31.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "72",
+    "name": "TREASURE HUNT - Motosaurus (Green - Orange)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-32.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "73",
+    "name": "TREASURE HUNT - BATMAN: The Animated Series (Black)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-33.png",
     "condition": "New",
     "stock": 1,
     "type": "th",

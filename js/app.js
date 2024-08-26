@@ -13,13 +13,13 @@ function scrollFunction() {
     scrollButton.style.display = "none";
   }
 }
-
 document.addEventListener("DOMContentLoaded", function () {
   const carContainer = document.getElementById("carContainer");
   const searchInput = document.getElementById("searchInput");
   const conditionFilter = document.getElementById("conditionFilter");
   const priceFilter = document.getElementById("priceFilter");
-  const tagMenu = document.getElementById("tagMenu");
+  const tagFilter = document.getElementById("tagFilter");
+  const sortBySelect = document.getElementById("sortBy");
   const noProductsMessage = document.createElement("div"); // Create a container for the message
   noProductsMessage.className = "alert alert-warning d-none"; // Initially hidden
   noProductsMessage.textContent = "No products found";
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let selectedType = null;
 
   // Fetch data from JSON file
-  fetch("cars2.json")
+  fetch("./json/cars2.json")
     .then((response) => response.json())
     .then((data) => {
       allCars = data;
@@ -40,20 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
       searchInput.addEventListener("input", filterAndDisplayCars);
       conditionFilter.addEventListener("change", filterAndDisplayCars);
       priceFilter.addEventListener("change", filterAndDisplayCars);
-
-      // Filter cars by tag
-      tagMenu.addEventListener("click", function (event) {
-        if (event.target.tagName === "A") {
-          const tag = event.target.getAttribute("data-tag");
-          if (selectedTags.includes(tag)) {
-            selectedTags = selectedTags.filter((t) => t !== tag);
-            event.target.classList.remove("active");
-          } else {
-            selectedTags.push(tag);
-            event.target.classList.add("active");
-          }
-          filterAndDisplayCars();
-        }
+      // Add event listener for sorting
+      sortBySelect.addEventListener("change", filterAndDisplayCars);
+      // Add event listener for tag filtering
+      tagFilter.addEventListener("change", function () {
+        const selectedTag = tagFilter.value;
+        selectedTags = selectedTag ? [selectedTag] : [];
+        filterAndDisplayCars();
       });
 
       // Handle clicks on new list items
@@ -78,6 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
           selectedType = "sth";
           filterAndDisplayCars();
         });
+      sortBySelect.value = "newest"; // Default sort option
+      filterAndDisplayCars();
     })
     .catch((error) => console.error("Error fetching car data:", error));
 
@@ -86,15 +81,15 @@ document.addEventListener("DOMContentLoaded", function () {
     carContainer.innerHTML = "";
     if (cars.length === 0) {
       carContainer.appendChild(noProductsMessage);
-      noProductsMessage.classList.remove("d-none"); // Show the message
+      noProductsMessage.classList.remove("d-none");
     } else {
-      noProductsMessage.classList.add("d-none"); // Hide the message
+      noProductsMessage.classList.add("d-none");
       cars.forEach((car) => {
         const card = document.createElement("div");
         card.className = "col-md-4 pt-2";
         card.innerHTML = `
           <div class="card">
-            <img src="${car.image}" class="card-img-top" alt="${car.name}">
+            <img src="${car.image}" loading="lazy" class="card-img-top" alt="${car.name}">
             <div class="card-body">
                 <h5 class="card-title">${car.name}</h5>
                 <p class="card-text price ${car.condition}">${car.price}</p>
@@ -109,26 +104,26 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   }
-
-  // Function to display tags in the menu
   function displayTags(cars) {
     const tags = new Set();
     cars.forEach((car) => car.tags.forEach((tag) => tags.add(tag)));
 
-    tagMenu.innerHTML = Array.from(tags)
-      .map(
-        (tag) => `
-          <a class="dropdown-item" href="#" data-tag="${tag}">${tag}</a>
-      `
-      )
-      .join("");
+    tagFilter.innerHTML =
+      `<option value="">Filter by Tag</option>` +
+      Array.from(tags)
+        .map(
+          (tag) => `
+            <option value="${tag}">${tag}</option>
+        `
+        )
+        .join("");
   }
 
-  // Function to filter cars based on search, price, condition, type, and tags
   function filterAndDisplayCars() {
     const query = searchInput.value.toLowerCase();
     const condition = conditionFilter.value;
     const priceRange = priceFilter.value;
+    const sortBy = sortBySelect.value; // Get the selected sorting option
     const [minPrice, maxPrice] = priceRange
       ? priceRange.split("-").map(Number)
       : [0, Infinity];
@@ -151,7 +146,30 @@ document.addEventListener("DOMContentLoaded", function () {
         matchesType
       );
     });
+    const sortedCars = filteredCars.sort((a, b) => {
+      if (sortBy === "name-asc") {
+        return a.name.localeCompare(b.name);
+      } else if (sortBy === "name-desc") {
+        return b.name.localeCompare(a.name);
+      } else if (sortBy === "price-asc") {
+        return (
+          parseInt(a.price.replace("đ", ""), 10) -
+          parseInt(b.price.replace("đ", ""), 10)
+        );
+      } else if (sortBy === "price-desc") {
+        return (
+          parseInt(b.price.replace("đ", ""), 10) -
+          parseInt(a.price.replace("đ", ""), 10)
+        );
+      } else if (sortBy === "newest") {
+        return b.id - a.id;
+      } else if (sortBy === "oldest") {
+        return a.id - b.id;
+      } else {
+        return 0; // No sorting
+      }
+    });
 
-    displayCars(filteredCars);
+    displayCars(sortedCars);
   }
 });

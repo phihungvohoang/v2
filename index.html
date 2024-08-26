@@ -19,6 +19,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/loading.css" />
+
   </head>
   <body>
     <!-- Navbar -->
@@ -55,69 +57,104 @@
           <li class="nav-item">
             <a class="nav-link" href="#sth">Sup Treasure Hunt</a>
           </li>
-          <!-- Tag Filters -->
-          <li class="nav-item dropdown tag-filter">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="tagDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Filter by Tag
-            </a>
-            <div
-              class="dropdown-menu"
-              aria-labelledby="tagDropdown"
-              id="tagMenu"
-            >
-              <!-- Tags will be inserted here -->
-            </div>
-          </li>
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
+    <!-- Navbar -->
+    <!-- Product -->
+    <div class="container">
       <!-- Search and Other Filters -->
       <div class="search-bar container">
         <form class="form-inline">
           <input
-            class="form-control mr-2"
+            class="form-control mr-2 mt-2"
             id="searchInput"
             type="text"
             placeholder="Search cars..."
           />
-          <select class="form-control mr-2 hide-on-mobile" id="conditionFilter">
+          <select class="form-control mr-2 mt-2" id="conditionFilter">
             <option value="">Condition</option>
             <option value="New">New</option>
             <option value="Used">Used</option>
             <option value="Cracked">Cracked</option>
             <option value="SoldOut">Sold Out</option>
           </select>
-          <select class="form-control ml-2 hide-on-mobile" id="priceFilter">
+          <select class="form-control  mr-2 mt-2" id="priceFilter">
             <option value="">Price Range</option>
-            <option value="0-70">70K</option>
-            <option value="75-80">80k</option>
-            <option value="85-100">100k</option>
-            <option value="105-120">120K</option>
-            <option value="125-150">150k</option>
+            <option value="0-70"> > 70K</option>
+            <option value="71-80"> > 80k</option>
+            <option value="81-100"> > 100k</option>
+            <option value="101-120"> > 120K</option>
+            <option value="121-150"> > 150k</option>
+            <option value="200-999"> > 200k</option>
+
+          </select>
+          <select class="form-control  mr-2 mt-2" id="sortBy">
+            <option value="">Sort By</option>
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="price-asc">Price (Low to High)</option>
+            <option value="price-desc">Price (High to Low)</option>
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+          </select>
+          <select class="form-control mr-2 mt-2" id="tagFilter">
+            <option value="">Filter by Tag</option>
+            <!-- Tags will be inserted here -->
           </select>
         </form>
       </div>
+      <!-- Search and Other Filters -->
+
       <!-- Car Cards -->
-      <div class="container-fluid">
         <div class="row" id="carContainer">
           <!-- Car cards will be inserted here -->
         </div>
-      </div>
+      <!-- Car Cards -->
+
     </div>
+      <!-- Product -->
+      <!-- scroll to top -->
+
     <div class="scroll_top" style="display: block">
       <a href="#top" class="btn btn-success"
         ><i class="fa-solid fa-angle-up"></i
       ></a>
     </div>
+      <!-- scroll to top -->
+      <!-- Loading -->
+    <div class="blockLoading">
+      <div class="blockLoading__load"></div>
+      <div class="blockLoading__text">Đang tải</div>
+    </div>
+
+    <div class="blockLoadWeb active">
+      <div class="blockLoadWeb__load">
+        <img
+          class="blockLoadWeb__load--logo"
+          src="images/logo/logo-light.png"
+        />
+      </div>
+      <div class="blockLoadWeb__progress"></div>
+      <div class="blockLoadWeb__progressBar"></div>
+      <div class="blockLoadWeb__intro">
+        <img class="intro__img" src="images/event/intro.webp" />
+        <div class="intro__overlay"></div>
+      </div>
+    </div>
+
+    <div class="blockChat">
+      <a
+        href="https://m.me/izaass.anons"
+        target="_blank"
+        class="blockChat__item"
+      >
+        <img class="blockChat__item--img" src="images/icon/icMess.svg" />
+      </a>
+    </div>
+    <!-- Loading -->
+
+  </div>
     <!-- footer -->
     <footer class="bg-dark text-center" style="margin-top: 10px">
       <!-- Grid container -->
@@ -183,5 +220,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="./js/app.js"></script>
+    <script type="text/javascript" src="https://phihungvohoang.github.io/js/script.js"></script>
+
   </body>
 </html>
