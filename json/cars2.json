@@ -247,7 +247,7 @@
     "condition": "Loose",
     "stock": 1,
     "type": "basic",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 26,
@@ -507,7 +507,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 52,
@@ -517,7 +517,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 53,
@@ -527,7 +527,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 54,
@@ -557,7 +557,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 57,
@@ -567,7 +567,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 58,
@@ -577,7 +577,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 59,
@@ -587,7 +587,7 @@
     "condition": "New",
     "stock": 2,
     "type": "th",
-    "tags": ["SUPPER TREASURE HUNT"]
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 60,
@@ -617,7 +617,7 @@
     "condition": "New",
     "stock": 2,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 63,
@@ -627,7 +627,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 64,
@@ -667,7 +667,7 @@
     "condition": "SoldOut",
     "stock": 0,
     "type": "sth",
-    "tags": ["TREASURE HUNT"]
+    "tags": ["SUPPER TREASURE HUNT"]
   },
   {
     "id": 68,
@@ -687,7 +687,7 @@
     "condition": "New",
     "stock": 3,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 70,
@@ -697,7 +697,7 @@
     "condition": "New",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 71,
@@ -707,7 +707,7 @@
     "condition": "SoldOut",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 72,
@@ -717,7 +717,7 @@
     "condition": "New",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 73,
@@ -727,7 +727,7 @@
     "condition": "New",
     "stock": 2,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 74,
@@ -737,7 +737,7 @@
     "condition": "New",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 75,
@@ -767,7 +767,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 78,
@@ -777,7 +777,7 @@
     "condition": "New",
     "stock": 1,
     "type": "basic",
-    "tags": ["TREASURE HUNT"]
+    "tags": []
   },
   {
     "id": 79,
@@ -827,7 +827,7 @@
     "condition": "Cracked",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 84,
@@ -837,7 +837,7 @@
     "condition": "New",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 85,
@@ -847,7 +847,7 @@
     "condition": "New",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 86,
@@ -857,7 +857,7 @@
     "condition": "New",
     "stock": 1,
     "type": "th",
-    "tags": []
+    "tags": ["TREASURE HUNT"]
   },
   {
     "id": 87,
