@@ -1,0 +1,652 @@
+[
+  {
+    "id": "1",
+    "name": "Hot Wheels Fast & Furious Ice Charger",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-1.png",
+    "condition": "SoldOut",
+    "stock": 0,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "2",
+    "name": "Blue ‘68 Dodge Dart",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-2.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "3",
+    "name": "Mazda RX7 Police",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-3.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "4",
+    "name": "Retro Racers Mazda 787B Red",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-4.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "5",
+    "name": "'83 Chevy Silverado (Black)",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-5.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "6",
+    "name": "Mazda Repu",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-6.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "7",
+    "name": "'73 Honda Civic Custom",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-7.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "8",
+    "name": "'60s Fiat 500D Modificado",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-8.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "9",
+    "name": "'Vespa 90 SS Super Sprint (1966)",
+    "price": "70.000đ",
+    "image": "images/product/basic/basic-70k-9.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "10",
+    "name": "'32 FORD",
+    "price": "70.000đ",
+    "image": "images/product/loose/loose-4.png",
+    "condition": "Cracked",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "11",
+    "name": "Baja Hauler 33/250",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-1.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "12",
+    "name": "Baja Bone Shaker",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-2.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "13",
+    "name": "Mazda RX-3",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-3.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "14",
+    "name": "20 Jeep Gladiator",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-4.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "15",
+    "name": "Volvo 240 drift wagon",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-5.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "16",
+    "name": "HI BEAM Pink",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-6.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "17",
+    "name": "HIROHATA MERC",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-7.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "18",
+    "name": "'52 CHEVY",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-8.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "19",
+    "name": "'89 MAZDA SAVANNA RX-7 FC35",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-9.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "20",
+    "name": "ASTON MARTIN VANTAGE GTE",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-10.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "21",
+    "name": "BMW M3 GT2",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-11.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "22",
+    "name": "MAILED IT",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-12.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "23",
+    "name": "'85 HONDA CITY TURBO II (GREEN)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-13.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "24",
+    "name": "'85 HONDA CITY TURBO II (BLUE)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-14.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "25",
+    "name": "'82 TOYOTA SUPRA",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-15.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "26",
+    "name": "PORSCHE 911 CARRERA RS 2.7",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-16.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "27",
+    "name": "PORSCHE 911 TURBO 3.6 (964)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-17.png",
+    "condition": "New",
+    "stock": 2,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "28",
+    "name": "'84 MUSTANG SVO",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-18.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "29",
+    "name": "'88 HONDA CR-X (GRAY)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-19.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "30",
+    "name": "'88 HONDA CR-X (BLUE)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-23.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "31",
+    "name": "FORD ESCORT RS2000",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-20.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "32",
+    "name": "MONSTER HIGH GHOUL MOBILE",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-21.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "33",
+    "name": "SUBARU WRX STI",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-22.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "34",
+    "name": "'98 Honda PRELUDE (Yellow)",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-25.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "35",
+    "name": "Porsche 904 Carrera GTS Silver",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-100k-1.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "36",
+    "name": "‘01 Custom Acura Integra GSR",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-2.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "37",
+    "name": "TRUCKS '91 GMC SYCLONE",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-3.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "38",
+    "name": "Volvo 850 Estate (Silver)",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-4.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "39",
+    "name": "PORSCHE 911 GT3",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-5.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "40",
+    "name": "SCION XB",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-6.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "41",
+    "name": "TOONED TWIN MILL",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-7.webp",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "42",
+    "name": "TOONED VOLKSWAGEN GOLF MK1",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-8.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "43",
+    "name": "96 NISSAN 180SX TYPE X",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-9.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "43",
+    "name": "16 BUGATTI CHIRON",
+    "price": "100.000đ",
+    "image": "images/product/basic/basic-100k-10.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "44",
+    "name": "TOONED NISSAN SKYLINE 2000GT-R LBWK",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-27.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "45",
+    "name": "NISSAN SKYLINE 2000GT-R LBWK",
+    "price": "80.000đ",
+    "image": "images/product/basic/basic-80k-26.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["JDM"]
+  },
+  {
+    "id": "46",
+    "name": "TREASURE HUNT - VOLKSWAGON BAJA BUG",
+    "price": "100.000đ",
+    "image": "images/product/thunt/thunt-12.png",
+    "condition": "New",
+    "stock": 2,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "47",
+    "name": "TREASURE HUNT - BONE SHAKER",
+    "price": "100.000đ",
+    "image": "images/product/thunt/thunt-11.png",
+    "condition": "New",
+    "stock": 3,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "48",
+    "name": "TREASURE HUNT - CAR-DE-ASADA",
+    "price": "111.111đ",
+    "image": "images/product/thunt/thunt-10.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "49",
+    "name": "MANGA TURNER - RED",
+    "price": "222.222đ",
+    "image": "images/product/basic/basic-200k-1.png",
+    "condition": "New",
+    "stock": 2,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "50",
+    "name": "MANGA TURNER - Pink",
+    "price": "222.222đ",
+    "image": "images/product/basic/basic-200k-2.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": ["Toon"]
+  },
+  {
+    "id": "51",
+    "name": "TREASURE HUNT - HONDA SUPER CUB CUSTOM",
+    "price": "70.000đ",
+    "image": "images/product/thunt/thunt-13.png",
+    "condition": "Cracked",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "52",
+    "name": "TREASURE HUNT - Circle Trucker Silver",
+    "price": "80.000đ",
+    "image": "images/product/thunt/thunt-14.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "53",
+    "name": "TREASURE HUNT - CORVETTE STINGRAY",
+    "price": "80.000đ",
+    "image": "images/product/thunt/thunt-15.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "54",
+    "name": "LANCIA DELTA INTEGRALE white",
+    "price": "150.000đ",
+    "image": "images/product/basic/basic-150k-1.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "basic",
+    "tags": []
+  },
+  {
+    "id": "55",
+    "name": "Supper Treasure Hunt - Fiat 500D Modificado",
+    "price": "123.345.678đ",
+    "image": "images/product/thunt/sthunt-1.png",
+    "condition": "SoldOut",
+    "stock": 0,
+    "type": "basic",
+    "tags": ["SUPPER TREASURE HUNT"]
+  },
+  {
+    "id": "56",
+    "name": "Mad Propz (2023)",
+    "price": "100.000đ",
+    "image": "images/product/thunt/thunt-1.jpg",
+    "condition": "SoldOut",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "57",
+    "name": "TREASURE HUNT - TOYOTA LAND CRUISER",
+    "price": "100.000đ",
+    "image": "images/product/thunt/thunt-2.png",
+    "condition": "New",
+    "stock": 3,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "58",
+    "name": "TREASURE HUNT - Draggin’ Wagon",
+    "price": "100.000đ",
+    "image": "images/product/thunt/thunt-3.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "59",
+    "name": "TREASURE HUNT - Ram 1500 Rebel",
+    "price": "90.000đ",
+    "image": "images/product/thunt/thunt-4.png",
+    "condition": "SoldOut",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "60",
+    "name": "TREASURE HUNT - Time Shifter",
+    "price": "90.000đ",
+    "image": "images/product/thunt/thunt-5.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "61",
+    "name": "TREASURE HUNT - CUSTOM '53 CHEVY",
+    "price": "90.000đ",
+    "image": "images/product/thunt/thunt-6.png",
+    "condition": "New",
+    "stock": 2,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "62",
+    "name": "TREASURE HUNT - TOONED VOLKSWAGEN GOLF MK1",
+    "price": "190.000đ",
+    "image": "images/product/thunt/thunt-7.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["Toon", "TREASURE HUNT"]
+  },
+  {
+    "id": "63",
+    "name": "TREASURE HUNT - MADFAST",
+    "price": "90.000đ",
+    "image": "images/product/thunt/thunt-8.png",
+    "condition": "New",
+    "stock": 2,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  },
+  {
+    "id": "64",
+    "name": "TREASURE HUNT - SKULL SHAKER (2021)",
+    "price": "90.000đ",
+    "image": "images/product/thunt/thunt-9.png",
+    "condition": "New",
+    "stock": 1,
+    "type": "th",
+    "tags": ["TREASURE HUNT"]
+  }
+]

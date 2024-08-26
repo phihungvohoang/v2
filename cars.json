@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Car 1",
+    "price": "$10",
+    "condition": "New",
+    "stock": 15,
+    "image": "https://phihungvohoang.github.io/images/product/basic/basic-70k-1.png",
+    "tags": ["Sports", "Red"],
+    "type": ""
+  },
+  {
+    "id": 2,
+    "name": "Car 2",
+    "price": "$15",
+    "condition": "Used",
+    "stock": 8,
+    "image": "https://phihungvohoang.github.io/images/product/basic/basic-70k-1.png",
+    "tags": ["SUV", "Blue"],
+    "type": "sth"
+  }
+]
