@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         card.innerHTML = `
           <div class="card">
             <div class="img-hover-zoom--quick-zoom">
-              <img src="${car.image}" loading="lazy" class="card-img-top" alt="${car.name}">
+              <img src="${car.image}" class="card-img-top" alt="${car.name}">
             </div>
             <div class="card-body">
                 <h5 class="card-title">${car.name}</h5>
