@@ -89,7 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
         card.className = "col-md-4 pt-2";
         card.innerHTML = `
           <div class="card">
-            <img src="${car.image}" loading="lazy" class="card-img-top" alt="${car.name}">
+            <div class="img-hover-zoom--quick-zoom">
+              <img src="${car.image}" loading="lazy" class="card-img-top" alt="${car.name}">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">${car.name}</h5>
                 <p class="card-text price ${car.condition}">${car.price}</p>

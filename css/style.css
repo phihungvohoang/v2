@@ -96,3 +96,13 @@
   text-decoration: line-through;
   color: #ed213a;
 }
+/* Quick-zoom Container */
+.img-hover-zoom--quick-zoom img {
+  transform-origin: center center; /* Center of the image */
+  transition: transform 0.25s, visibility 0.25s ease-in;
+}
+
+/* The Transformation */
+.img-hover-zoom--quick-zoom:hover img {
+  transform: scale(2.5);
+}
